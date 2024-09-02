@@ -55,12 +55,12 @@ export const Cases = ({ className }: CasesProps) => {
                     <h2>Pseudo elements</h2>
                 </div>
                 <div>
-                    <p>
+                    <h5>
                         You can use the ::first-line pseudo-element to add a special effect to the
                         first line of a text. Some more text. And even more, and more, and more, and
                         more, and more, and more, and more, and more, and more, and more, and more,
                         and more.
-                    </p>
+                    </h5>
                 </div>
             </div>
         </div>
