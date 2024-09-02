@@ -25,6 +25,14 @@ export const Cases = ({ className }: CasesProps) => {
                     </p>
                 </div>
             </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>Type selectors</h2>
+                </div>
+                <div>
+                    <span>Here&apos;s a span with some colors</span>
+                </div>
+            </div>
         </div>
     );
 };
