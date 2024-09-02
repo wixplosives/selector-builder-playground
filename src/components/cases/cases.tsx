@@ -41,6 +41,14 @@ export const Cases = ({ className }: CasesProps) => {
                     <p id="blue">This paragraph has a blue background.</p>
                 </div>
             </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>Pseudo classes</h2>
+                </div>
+                <div>
+                    <button className={styles.button}>Button</button>
+                </div>
+            </div>
         </div>
     );
 };

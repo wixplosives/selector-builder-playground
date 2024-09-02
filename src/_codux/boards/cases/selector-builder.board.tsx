@@ -5,4 +5,7 @@ export default createBoard({
     name: 'Selector-Builder',
     Board: () => <Cases />,
     isSnippet: true,
+    environmentProps: {
+        windowWidth: 468,
+    },
 });

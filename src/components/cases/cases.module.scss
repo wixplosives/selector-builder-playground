@@ -10,10 +10,12 @@ h2 {
 .red {
     color: #ff3385;
 }
+
 .fancy {
     font-weight: bold;
     text-shadow: 2px 1px 2px #77f;
 }
+
 .section {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -29,5 +31,14 @@ span {
 }
 
 #blue {
-  background-color: skyblue;
+    background-color: skyblue;
+}
+.button {
+    padding: 6px;
+    background-color: #000000;
+    color: #00ff80;
+    &:hover {
+        background-color: #242b86;
+        cursor: pointer;
+    }
 }
