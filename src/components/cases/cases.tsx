@@ -63,6 +63,24 @@ export const Cases = ({ className }: CasesProps) => {
                     </h5>
                 </div>
             </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>Sibling + inheritance rule</h2>
+                </div>
+                <div>
+                    <div className={styles['blog-post']}>
+                        <p>
+                            CSS selectors are used to select the HTML elements you want to style...
+                        </p>
+                        <div class={'author'}>Written by: Jane Doe</div>
+
+                        <h3>Comments</h3>
+                        <p>Great post! I learned a lot about CSS selectors.</p>
+
+                        <p>Can you explain more about pseudo-classes?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
