@@ -42,7 +42,7 @@ span {
         cursor: pointer;
     }
 }
-.link {
+a {
     font-size: 12px;
     color: blue;
     text-decoration: underline;
@@ -53,4 +53,16 @@ span {
     color:powderblue;
 }
 }
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+  font-size: 11px;
+}
+
+
+// il::first-line {
+//   color: blue;
+//   background-color: gold;
+// }
 

@@ -47,9 +47,20 @@ export const Cases = ({ className }: CasesProps) => {
                 </div>
                 <div>
                     <button className={styles.button}>Button</button>
-                    <a href="/" className={styles.link}>
-                        Click here
-                    </a>
+                    <a href="/">Click here</a>
+                </div>
+            </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>Pseudo elements</h2>
+                </div>
+                <div>
+                    <p>
+                        You can use the ::first-line pseudo-element to add a special effect to the
+                        first line of a text. Some more text. And even more, and more, and more, and
+                        more, and more, and more, and more, and more, and more, and more, and more,
+                        and more.
+                    </p>
                 </div>
             </div>
         </div>
