@@ -33,6 +33,14 @@ export const Cases = ({ className }: CasesProps) => {
                     <span>Here&apos;s a span with some colors</span>
                 </div>
             </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>ID selectors</h2>
+                </div>
+                <div>
+                    <p id="blue">This paragraph has a blue background.</p>
+                </div>
+            </div>
         </div>
     );
 };
