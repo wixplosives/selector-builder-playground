@@ -43,10 +43,13 @@ export const Cases = ({ className }: CasesProps) => {
             </div>
             <div className={styles.section}>
                 <div>
-                    <h2>Pseudo classes</h2>
+                    <h2>Pseudo classes (:hover, :visited)</h2>
                 </div>
                 <div>
                     <button className={styles.button}>Button</button>
+                    <a href="/" className={styles.link}>
+                        Click here
+                    </a>
                 </div>
             </div>
         </div>

@@ -42,3 +42,15 @@ span {
         cursor: pointer;
     }
 }
+.link {
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+&:hover{
+    text-decoration: unset;
+}
+&:visited{
+    color:powderblue;
+}
+}
+
