@@ -20,9 +20,7 @@ export const Cases = ({ className }: CasesProps) => {
                     <p className={classNames(styles.red, styles.fancy)}>
                         This paragraph has red text and "fancy" styling.
                     </p>
-                    <p className={styles.red}>
-                        This paragraph has red text and "fancy" styling.
-                    </p>
+                    <p className={styles.red}>This paragraph has red text and "fancy" styling.</p>
                 </div>
             </div>
             <div className={styles.section}>
@@ -49,6 +47,12 @@ export const Cases = ({ className }: CasesProps) => {
                     <button className={styles.button}>Button</button>
                     <a href="/">Click here</a>
                 </div>
+                <ol>
+                    <li>First item</li>
+                    <li> Second item</li>
+                    <li className={styles.list}>Third item</li>
+                    <li>Third item</li>
+                </ol>
             </div>
             <div className={styles.section}>
                 <div>

@@ -3,7 +3,7 @@
 h2 {
     font-size: 20px;
     font-weight: bold;
-    color:sa
+    color: sa;
 }
 
 .red {
@@ -57,17 +57,16 @@ h5::first-line {
     font-size: 11px;
 }
 
-// il::first-line {
-//   color: blue;
-//   background-color: gold;
-// }
+.list:nth-child(3) {
+     background-color : gold; 
+}
 
- .blog-post h3+p {
+
+.blog-post h3 + p {
     background-color: #e0f7fa;
     border: 1px solid #004d40;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
 }
-
 
