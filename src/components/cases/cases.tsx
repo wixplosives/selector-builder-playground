@@ -17,10 +17,10 @@ export const Cases = ({ className }: CasesProps) => {
                     <h2>Class selectors</h2>
                 </div>
                 <div>
-                    <p class="red fancy" className={classNames(styles.red, styles.fancy)}>
+                    <p className={classNames(styles.red, styles.fancy)}>
                         This paragraph has red text and "fancy" styling.
                     </p>
-                    <p class="red fancy" className={styles.red}>
+                    <p className={styles.red}>
                         This paragraph has red text and "fancy" styling.
                     </p>
                 </div>
@@ -38,7 +38,7 @@ export const Cases = ({ className }: CasesProps) => {
                     <h2>ID selectors</h2>
                 </div>
                 <div>
-                    <p id="blue">This paragraph has a blue background.</p>
+                    <h1 id={styles.blue}>This paragraph has a blue background.</h1>
                 </div>
             </div>
             <div className={styles.section}>
