@@ -54,32 +54,33 @@ a {
 h5::first-line {
     color: #ff0000;
     font-variant: small-caps;
-    font-size: 11px;
+    font-size: 15px;
 }
-
-.p{
+h5::first-letter{
+    font-size: 30px;;
+}
+.p {
     font-size: 16px;
     font-weight: bold;
 }
-.p::before{
-    color:BlueViolet;
+.p::before {
+    color: BlueViolet;
     content: open-quote;
     position: absolute;
     font-size: 2rem;
-    left:-0.1rem;  
+    left: -0.1rem;
 }
-.p::after{
-    color:BlueViolet;
+.p::after {
+    color: BlueViolet;
     content: close-quote;
     position: absolute;
     font-size: 2rem;
-    left:17rem;  
+    left: 17rem;
 }
 
 .listItem:nth-child(3) {
-     background-color : gold; 
+    background-color: gold;
 }
-
 
 .blog-post h3 + p {
     background-color: #e0f7fa;
@@ -89,3 +90,23 @@ h5::first-line {
     margin-top: 10px;
 }
 
+a[href]{
+    color:red;
+    font-weight: bold;
+}
+
+a[target="_blank"]{
+    color:black
+}
+
+a[href^="https"]{
+    font-size:30px;
+}
+
+a[href$="org"]{
+text-transform: uppercase;
+}
+
+a[href*="oo"]{
+    float: right;
+}

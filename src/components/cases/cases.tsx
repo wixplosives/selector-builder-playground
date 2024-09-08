@@ -89,6 +89,20 @@ export const Cases = ({ className }: CasesProps) => {
                 </div>
                 <button>Button</button>
             </div>
+            <div className={styles.section}>
+                <div>
+                    <h2>Attribute selectors</h2>
+                </div>
+                <div>
+                    <a href="https://www.wikipedia.org">www.wikipedia.org</a>
+                    <br />
+                    <a href="http://www.google.com">www.google.com</a>
+                    <br />
+                    <a href="https://www.github.com" target="_blank">
+                        www.github.com
+                    </a>
+                </div>
+            </div>
         </div>
     );
 };
