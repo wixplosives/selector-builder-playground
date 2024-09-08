@@ -48,10 +48,10 @@ export const Cases = ({ className }: CasesProps) => {
                     <a href="/">Click here</a>
                 </div>
                 <ol>
-                    <li>First item</li>
-                    <li> Second item</li>
-                    <li className={styles.list}>Third item</li>
-                    <li>Third item</li>
+                    <li className={styles.listItem}>First item</li>
+                    <li className={styles.listItem}>Second item</li>
+                    <li className={styles.listItem}>Second item</li>
+                    <li className={styles.listItem}>Third item</li>
                 </ol>
             </div>
             <div className={styles.section}>
@@ -65,6 +65,9 @@ export const Cases = ({ className }: CasesProps) => {
                         more, and more, and more, and more, and more, and more, and more, and more,
                         and more.
                     </h5>
+                </div>
+                <div>
+                    <p className={styles.p}>This is a paragraph with &quot;::before&quot;.</p>
                 </div>
             </div>
             <div className={styles.section}>
@@ -84,6 +87,7 @@ export const Cases = ({ className }: CasesProps) => {
                         <p>Can you explain more about pseudo-classes?</p>
                     </div>
                 </div>
+                <button>Button</button>
             </div>
         </div>
     );

@@ -57,7 +57,26 @@ h5::first-line {
     font-size: 11px;
 }
 
-.list:nth-child(3) {
+.p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.p::before{
+    color:BlueViolet;
+    content: open-quote;
+    position: absolute;
+    font-size: 2rem;
+    left:-0.1rem;  
+}
+.p::after{
+    color:BlueViolet;
+    content: close-quote;
+    position: absolute;
+    font-size: 2rem;
+    left:17rem;  
+}
+
+.listItem:nth-child(3) {
      background-color : gold; 
 }
 
