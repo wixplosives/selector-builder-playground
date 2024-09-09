@@ -11,7 +11,7 @@ export interface CasesProps {
  */
 export const Cases = ({ className }: CasesProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div>
             <div className={styles.section}>
                 <div>
                     <h2>Class selectors</h2>
@@ -79,7 +79,7 @@ export const Cases = ({ className }: CasesProps) => {
                         <p>
                             CSS selectors are used to select the HTML elements you want to style...
                         </p>
-                        <div class={'author'}>Written by: Jane Doe</div>
+                        <div className={styles['author']}>Written by: Jane Doe</div>
 
                         <h3>Comments</h3>
                         <p>Great post! I learned a lot about CSS selectors.</p>
