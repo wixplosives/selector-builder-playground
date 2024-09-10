@@ -56,8 +56,8 @@ h5::first-line {
     font-variant: small-caps;
     font-size: 15px;
 }
-h5::first-letter{
-    font-size: 30px;;
+h5::first-letter {
+    font-size: 30px;
 }
 .p {
     font-size: 16px;
@@ -90,23 +90,23 @@ h5::first-letter{
     margin-top: 10px;
 }
 
-a[href]{
-    color:red;
+a[href] {
+    color: red;
     font-weight: bold;
 }
 
-a[target="_blank"]{
-    color:black
+a[target='_blank'] {
+    color: black;
 }
 
-a[href^="https"]{
-    font-size:30px;
+a[href^='https'] {
+    font-size: 30px;
 }
 
-a[href$="org"]{
-text-transform: uppercase;
+a[href$='org'] {
+    text-transform: uppercase;
 }
 
-a[href*="oo"]{
+a[href*='oo'] {
     float: right;
 }
