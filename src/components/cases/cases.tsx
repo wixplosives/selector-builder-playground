@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './cases.module.scss';
+import { ExternalComp } from '../external-comp/external-comp';
 
 export interface CasesProps {
     className?: string;
@@ -9,6 +10,7 @@ export interface CasesProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
+
 export const Cases = ({ className }: CasesProps) => {
     return (
         <div>
@@ -102,6 +104,10 @@ export const Cases = ({ className }: CasesProps) => {
                         www.github.com
                     </a>
                 </div>
+            </div>
+            <div className={styles.section}>
+                <h1>External component</h1>
+                <ExternalComp className={styles.externalComp} />
             </div>
         </div>
     );
