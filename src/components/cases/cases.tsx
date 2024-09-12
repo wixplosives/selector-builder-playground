@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './cases.module.scss';
+import { ExternalComp } from '../external-comp/external-comp';
 
 export interface CasesProps {
     className?: string;
@@ -9,9 +10,10 @@ export interface CasesProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
+
 export const Cases = ({ className }: CasesProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div>
             <div className={styles.section}>
                 <div>
                     <h2>Class selectors</h2>
@@ -79,8 +81,7 @@ export const Cases = ({ className }: CasesProps) => {
                         <p>
                             CSS selectors are used to select the HTML elements you want to style...
                         </p>
-                        <div className={'author'}>Written by: Jane Doe</div>
-
+                        <div className={styles['author']}>Written by: Jane Doe</div>
                         <h3>Comments</h3>
                         <p>Great post! I learned a lot about CSS selectors.</p>
 
@@ -102,6 +103,10 @@ export const Cases = ({ className }: CasesProps) => {
                         www.github.com
                     </a>
                 </div>
+            </div>
+            <div className={styles.section}>
+                <h1>External component</h1>
+                <ExternalComp className={styles.externalComp} />
             </div>
         </div>
     );
