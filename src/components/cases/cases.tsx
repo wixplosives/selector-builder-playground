@@ -106,7 +106,7 @@ export const Cases = ({ className }: CasesProps) => {
             </div>
             <div className={styles.section}>
                 <h1>External component</h1>
-                <ExternalComp className={styles.externalComp} />
+                // <ExternalComp className={styles.externalComp} />
             </div>
         </div>
     );
